@@ -2,6 +2,7 @@ import argparse
 import time
 from tqdm import tqdm
 import copy as cp
+#from utils import data_loader, eval_helper
 
 import torch
 import torch.nn.functional as F
@@ -11,8 +12,8 @@ from torch.utils.data import random_split
 from torch_geometric.data import DataLoader, DataListLoader
 
 
-from utils.data_loader import *
-from utils.eval_helper import *
+from data_loader import *
+from eval_helper import *
 
 
 """
